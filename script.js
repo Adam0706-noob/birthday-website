@@ -115,7 +115,7 @@ function submitBirthdayDate() {
   }
 
   if (enteredDigits === TARGET_PASSCODE) {
-    // Correct Passcode (2005) - Directly transition to the Surprise Question Screen
+    // Correct Passcode (2007) - Directly transition to the Surprise Question Screen
     const danceGif = document.getElementById('dance-gif');
     if (danceGif) {
       danceGif.src = DANCE_GIF_URL;
